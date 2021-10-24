@@ -34,15 +34,19 @@ Simulation Results:
 Now, in order to generate 3 different speeds, there are two step inputs that start at 4000 rpm, and then increased to 7500 rpm ending at 10000 rpm at each 10 second, so total simulation time is 30 seconds. Running the simulation with the values found in Table.1, it will be as following:
 
   -PID Controller Simulation Output:
+  
   ![image](https://user-images.githubusercontent.com/87785000/138581934-2086a9a9-25b7-4374-bcbf-18dae0b96634.png)  
   
   -PI Controller Simulation Output:
+  
   ![image](https://user-images.githubusercontent.com/87785000/138581953-06bd37d6-9bc2-425d-bf93-f8ce4821e54c.png) 
   
   -PD Controller Simulation Output:
+  
   ![image](https://user-images.githubusercontent.com/87785000/138581963-14bf149f-eedf-492d-9235-5d61d321daf9.png)
   
 Conclusion:
+
 ![image](https://user-images.githubusercontent.com/87785000/138581980-b1d4a428-88b3-483a-90a6-f8f0772f7035.png)
 
 In the end, we can conclude that the best approach for designing an effective control system for the drone motor that is using PID controller because it meets the parameter of the overshot and settling time. 
